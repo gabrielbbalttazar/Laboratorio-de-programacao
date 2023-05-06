@@ -4,6 +4,7 @@ public class Equipe {
     private int vitorias;
     private int derrotas;
     private int empates;
+    private int ponto;
 
     public String getNome() {
         return nome;
@@ -46,6 +47,7 @@ public class Equipe {
 
     void registrarVitoria() {
         this.vitorias++;
+        this.ponto += 3;
     }
 
     void registrarDerrota() {
@@ -54,5 +56,6 @@ public class Equipe {
 
     void registrarEmpate() {
         this.empates++;
+        this.ponto ++;
     }
 }
