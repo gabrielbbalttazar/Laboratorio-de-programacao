@@ -27,8 +27,9 @@ public class Main {
         System.out.println("=================================================================================================================================");
         System.out.println("Atualizando a diponibilidade de 2 livros inseridos para indisponível e logo em seguida exibindo a lista com as disponibilidades: ");
 
-        biblioteca.atualizarDetalhesDoLivro(livro2, false);
+        biblioteca.atualizarDetalhesDoLivro(biblioteca.livro2, false);
         biblioteca.atualizarDetalhesDoLivro(livro4, false);
+
 
         biblioteca.verificarDispobinilidade();
 
